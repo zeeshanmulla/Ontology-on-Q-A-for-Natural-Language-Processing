@@ -14,7 +14,7 @@ Remove Stop Words : Removes stop words from the tokens. The stop words are remov
 Stemming : Removes the suffixes like ‘ing’,’ment’ , ‘ ‘s’ , ‘es’ , ‘s’ etc from the words.
 Get Answer :  Displays the answer for the user Query and generates an Ontology for the same.
 
-**SAMPLE INPUT **
+**SAMPLE INPUT**
 
 A sample Query is fired at the system. The Query is : “What is harshal’s mother’s name ? “.
 The Query precessing and the answer is obtained according to the following steps :
@@ -23,20 +23,20 @@ The Query precessing and the answer is obtained according to the following steps
 
 In the above figure, the user wants to know the name of harshal’s mother and asks the system about it.
 
-**Tokenization **
+**Tokenization**
 
 ![image](https://user-images.githubusercontent.com/29397302/78455172-5200cc00-76ba-11ea-8261-c7f2e9fc0367.png)
 
 Tokenization : The tokens for the query are generated. The tokens are as follows: 
 What    is    harshal’s    mother’s     mother    name    ?
 
-**Remove stop words **
+**Remove stop words**
 
 ![image](https://user-images.githubusercontent.com/29397302/78455192-6f359a80-76ba-11ea-8d4f-a134b47c4937.png)
 
 This step removes the stop words ‘what’ ‘is’ ‘?’ from the tokens obtained.
 
-**Stemming **
+**Stemming**
 
 ![image](https://user-images.githubusercontent.com/29397302/78455237-b754bd00-76ba-11ea-949a-4a4eb10a04ba.png)
 
